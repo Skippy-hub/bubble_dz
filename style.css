@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", serif;
+    background: #2F6B4F;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo-container{
+    width: 100%;
+    max-width: 1210px;
+    height: 65px;
+    margin: 19px auto 0;
+}
+
+.hero__logo{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 135px;
+}
+
+.hero__logo-title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 136.2%;
+    text-align: center;
+    color: #fff;
+}
+
+.hero__content{
+    width: 100%;
+    max-width: 999px;
+    margin: 0 auto 266px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero__content-heading{
+    font-size: 64px;
+    line-height: 136.2%;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.hero__content-paragraph{
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    opacity: 71%;
+}
+
+.paragraph-container{
+    width: 100%;
+    max-width: 857px;
+    margin: 0 auto;
+}
+
+.services{
+    background: #fff;
+    padding-top: 89px;
+    padding-bottom: 122px;
+}
+
+.services__title{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 136%;
+    color: #2A2C3D;
+    padding-left: 115px;
+    margin-bottom: 40px;
+}
+
+.services__row{
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+}
+
+.services__row-card{
+    width: 289px;
+    text-align: center;
+    padding: 32px 24px 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 2px 6px 24px 0px #2A2C3D29;
+}
+
+.services__row-card-img{
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.services__row-card-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 136%;
+    color: #2A2C3D;
+}
+
+.services__row-card-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #2A2C3D;
+    opacity: 71%;
+}
+
+/* .container > .services__row:nth-child(2){
+    margin-bottom: 54px;
+} */
+
+.services__title + .services__row{
+    margin-bottom: 54px;
+}
+
+.contact{
+    padding: 60px 0 130px;
+}
+
+.contact__content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    width: 100%;
+    max-width: 661px;
+    margin: 0 auto;
+}
+
+.contact__content-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 136%;
+    color: #fff;
+}
+
+.contact__content-button{
+    padding: 23px 32px;
+    color: #2A2C3D;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 136.2%;
+    margin: 0 auto;
+    background: #fff;
+}
